@@ -1,15 +1,5 @@
 # MHFormer: Multi-Hypothesis Transformer for 3D Human Pose Estimation
 
-
-> [**MHFormer: Multi-Hypothesis Transformer for 3D Human Pose Estimation**](https://arxiv.org/pdf/2111.12707),            
-> Wenhao Li, Hong Liu, Hao Tang, Pichao Wang, Luc Van Gool,        
-> *In IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2022*
-
-
-| ![skating](figure/skating.gif)  | ![anime](figure/anime.gif) |
-| ------------- | ------------- |
-
-
 ## Installation
 
 - Create a conda environment: ```conda create -n mhformer python=3.10```
@@ -74,31 +64,6 @@ Run the command below:
 python demo/vis.py --video sample_video.mp4
 ```
 
-Sample demo output:
-
-<p align="center"><img src="figure/sample_video.gif" width="60%" alt="" /></p>
-
-
-## Citation
-
-If you find our work useful in your research, please consider citing:
-
-    @inproceedings{li2022mhformer,
-      title={MHFormer: Multi-Hypothesis Transformer for 3D Human Pose Estimation},
-      author={Li, Wenhao and Liu, Hong and Tang, Hao and Wang, Pichao and Van Gool, Luc},
-      booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-      pages={13147-13156},
-      year={2022}
-    }
-
-    @article{li2023multi,
-      title={Multi-Hypothesis Representation Learning for Transformer-Based 3D Human Pose Estimation},
-      author={Li, Wenhao and Liu, Hong and Tang, Hao and Wang, Pichao},
-      journal={Pattern Recognition},
-      volume={141},
-      pages={109631},
-      year={2023},
-    }
 
 ## Acknowledgement
 
@@ -109,6 +74,3 @@ Our code is extended from the following repositories. We thank the authors for r
 - [3d-pose-baseline](https://github.com/una-dinosauria/3d-pose-baseline)
 - [3d_pose_baseline_pytorch](https://github.com/weigq/3d_pose_baseline_pytorch)
 - [StridedTransformer-Pose3D](https://github.com/Vegetebird/StridedTransformer-Pose3D)
-## Licence
-
-This project is licensed under the terms of the MIT license.

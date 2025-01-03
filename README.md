@@ -1,6 +1,5 @@
-# MHFormer: Multi-Hypothesis Transformer for 3D Human Pose Estimation [CVPR 2022]
+# MHFormer: Multi-Hypothesis Transformer for 3D Human Pose Estimation
 
-<p align="center"><img src="figure/pipline.jpg" width="100%" alt="" /></p>
 
 > [**MHFormer: Multi-Hypothesis Transformer for 3D Human Pose Estimation**](https://arxiv.org/pdf/2111.12707),            
 > Wenhao Li, Hong Liu, Hao Tang, Pichao Wang, Luc Van Gool,        
@@ -10,13 +9,11 @@
 | ![skating](figure/skating.gif)  | ![anime](figure/anime.gif) |
 | ------------- | ------------- |
 
-## News
-- Our method has been improved the efficiency without sacrificing performance in [🔥HoT🔥](https://github.com/NationalGAILab/HoT), CVPR 2024!
 
 ## Installation
 
-- Create a conda environment: ```conda create -n mhformer python=3.9```
-- Install PyTorch 1.7.1 and Torchvision 0.8.2 following the [official instructions](https://pytorch.org/)
+- Create a conda environment: ```conda create -n mhformer python=3.10```
+- Install PyTorch 1.12.0 and Torchvision 0.13.0
 - ```pip3 install -r requirements.txt```
   
 ## Dataset setup
